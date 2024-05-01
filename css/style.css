@@ -13,26 +13,27 @@
 	height: 150px;
 	position: absolute;
 	transform: translate(70px,400px);
-	animation: fish 5s infinite;
-	animation-timing-function: linear;
-
+	animation: fish 3s infinite;
 }
+
+
 
 @keyframes fish {
     from{
-     	left: -200px;
+     	left: 30px;
     }
     to{
         left: 150px;
     }
 }
 
+
 .fish1{
 	width: 250px;
 	height: 250px;
 	position: absolute;
 	transform: translate( 1070px, 50px);
-	animation: fish1 5s infinite;
+	animation: fish1 3s infinite ;
 	animation-timing-function: linear;
 }
 
@@ -82,6 +83,7 @@
 	height: 200px;
 	animation: seaweed 5s infinite;
 	margin-left: 1000px;
+
 }
 
 @keyframes seaweed{
@@ -106,4 +108,46 @@
 	height: 300px;
 	animation: seaweed 5s infinite;
 	margin-left: 1100px ;
+}
+
+.shark{
+	width: 320px;
+	height: 220px;
+	position: absolute;
+	top: 350px ;
+	left: 85px;
+	opacity: 0;
+}
+
+
+.shark:hover{
+	opacity: 1;
+}		
+
+
+.seashell{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 550px;
+	left: 900px;
+	opacity: 0;
+
+}
+
+.seashell1{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 550px;
+	left: 600px;
+	opacity: 0;
+}
+
+.seashell:hover{
+	opacity: 1;
+}
+
+.seashell1:hover{
+	opacity: 1;
 }
